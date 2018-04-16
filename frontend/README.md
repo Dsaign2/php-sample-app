@@ -1,4 +1,4 @@
-# PHP Front-End
+# PHP APP Front-End
 
 For this app to run correctly, you first need to install [Docker](https://www.docker.com/).<br>
 Run these commands in order to run the project:
