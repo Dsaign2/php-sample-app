@@ -1,5 +1,7 @@
 # PHP Front-End
 
+First of all, install [Docker](https://www.docker.com/)
+
 ## Clone the repository
 ```
 $ git clone https://github.com/igormartimiano/php-sample-app php-sample-app
