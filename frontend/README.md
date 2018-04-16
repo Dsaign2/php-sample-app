@@ -1,6 +1,6 @@
 # PHP Front-End
 
-First of all, install [Docker](https://www.docker.com/)
+For this app to run correctly, you need to install [Docker](https://www.docker.com/).
 
 ## Clone the repository
 ```
