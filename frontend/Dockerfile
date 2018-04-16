@@ -9,4 +9,4 @@ WORKDIR /var/www/html/
 # Copy files from root to workdir
 COPY . .
 
-RUN docker run -d -p 80:80 --link <nome-do-container-mysql> --name frontend <nome-do-container-php>
+# RUN docker run -d -p 80:80 --link <nome-do-container-mysql> --name frontend <nome-do-container-php>
