@@ -6,7 +6,5 @@ RUN docker-php-ext-install mysqli
 # Create app directory
 WORKDIR /var/www/html/
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
+# Copy files from root to workdir
 COPY . .
