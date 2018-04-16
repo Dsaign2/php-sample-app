@@ -4,7 +4,7 @@ For this app to run correctly, you need to install [Docker](https://www.docker.c
 
 ## Clone the repository
 ```
-$ git clone https://github.com/dsaign2/php-sample-app php-sample-app
+$ git clone https://github.com/Dsaign2/php-sample-app php-sample-app
 $ cd php-sample-app
 ```
 
