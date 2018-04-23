@@ -1,9 +1,9 @@
 ## Build
 
-Para fazer a build, é necessário inserir a tag para o webhook.
-O padrão utilizado é ```lts-*tag*```
+To build the project, it's needed to insert a tag to the webhook service.
+The pattern used is ```lts-*tag*```
 
-Exemplo: **lts-0.0.1**
+E.g.: **lts-0.0.1**
 
 ```
 $ docker build . -t db:*tag*
@@ -21,7 +21,7 @@ $ docker run -d -e MYSQL_DATABASE='demo' -e MYSQL_ALLOW_EMPTY_PASSWORD='yes' --n
 $ docker logs backend -f
 ```
 
-## Testar a conexão com o banco de dados
+## Test connection with database
 
 ```
 $ docker exec -ti backend mysql -u root -p
