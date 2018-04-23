@@ -1,4 +1,4 @@
-## Build
+# Build
 
 To build the project, it's needed to insert a tag to the webhook service.<br>
 The pattern used is ```prod-*tag*```
