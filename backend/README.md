@@ -1,6 +1,6 @@
 ## Build
 
-To build the project, it's needed to insert a tag to the webhook service.
+To build the project, it's needed to insert a tag to the webhook service.<br>
 The pattern used is ```lts-*tag*```
 
 E.g.: **lts-0.0.1**
