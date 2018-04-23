@@ -59,5 +59,5 @@ $ docker run -d -p 80:80 --rm --name front front-php:*tag*
 Just run the following:
 
 ```
-docker run -d -p 80:80 --name frontend --link backend frontend:0.0.1
+$ docker run -d -p 80:80 --name frontend --link backend frontend:0.0.1
 ```
