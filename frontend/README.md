@@ -3,8 +3,8 @@
 For this app to run correctly, you first need to install [Docker](https://www.docker.com/)<br>
 and open the Docker Quickstart Terminal.
 
-When it's needed to insert a tag, provide it with the pattern ```lts-*tag*```<br>
-E.g.: **lts-0.0.1**<br>
+When it's needed to insert a tag, provide it with the pattern ```prod-*tag*```<br>
+E.g.: **prod-0.0.1**<br>
 
 Run these commands in order to run the project:
 
