@@ -1,7 +1,7 @@
 ## Build
 
 Para fazer a build, é necessário inserir a tag para o webhook.
-O padrão utilizado é ```lts- + <tag>```
+O padrão utilizado é ```lts-*tag*```
 
 Exemplo: **lts-0.0.1**
 
