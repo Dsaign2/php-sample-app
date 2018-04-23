@@ -16,3 +16,34 @@ A estrutura foi criada com base nas seguintes tags:
 
 - frontend-0.1: Versão de testes SEM conexão com o banco para a primeira parte da NAC;
 - stable:  Versão COM as linhas de conexão com o banco configuradas, será necessário que o MySQL esteja operante para testes faltando apenas a criação do Dockerfile da aplicação/mysql;
+
+
+
+## Build Backend
+
+To build the project, it's needed to insert a tag to the webhook service.<br>
+The pattern used is ```prod-*tag*```
+
+E.g.: **prod-0.0.1**
+
+```
+$ docker build . -t db:*tag*
+```
+
+## Run
+
+```
+$ docker run -d -e MYSQL_DATABASE='demo' -e MYSQL_ALLOW_EMPTY_PASSWORD='yes' --name backend db:*tag*
+```
+
+## Logs
+
+```
+$ docker logs backend -f
+```
+
+## Test connection with database
+
+```
+$ docker exec -ti backend mysql -u root -p
+```
