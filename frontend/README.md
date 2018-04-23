@@ -23,5 +23,5 @@ $ docker build . -t front-php:*tag*
 
 ### Run
 ```
-$ docker run -d -p 80:80 --rm -name front front-php:*tag*
+$ docker run -d -p 80:80 --rm --name front front-php:*tag*
 ```
