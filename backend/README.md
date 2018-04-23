@@ -1,9 +1,9 @@
 ## Build
 
 To build the project, it's needed to insert a tag to the webhook service.<br>
-The pattern used is ```lts-*tag*```
+The pattern used is ```prod-*tag*```
 
-E.g.: **lts-0.0.1**
+E.g.: **prod-0.0.1**
 
 ```
 $ docker build . -t db:*tag*
