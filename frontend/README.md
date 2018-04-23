@@ -1,6 +1,10 @@
 # PHP App Front-End
 
-For this app to run correctly, you first need to install [Docker](https://www.docker.com/).<br>
+For this app to run correctly, you first need to install [Docker](https://www.docker.com/).<br><br>
+
+When it's needed to insert a tag, provide it with the pattern ```lts-*tag*```<br>
+E.g.: **lts-0.0.1**<br><br>
+
 Run these commands in order to run the project:
 
 ### Clone the repository
@@ -10,9 +14,6 @@ $ cd php-sample-app
 ```
 
 ### Build
-
-Use ```*tag*``` like ```lts-*tag*```<br>
-E.g.: **lts-0.0.1**
 
 ```
 $ cd frontend
