@@ -10,6 +10,10 @@ $ cd php-sample-app
 ```
 
 ### Build
+
+Use ```*tag*``` like ```lts-*tag*```<br>
+E.g.: **lts-0.0.1**
+
 ```
 $ cd frontend
 $ docker build . -t front-php:*tag*
